@@ -2,5 +2,5 @@ export RLGLUE_PORT=$1
 rl_glue &
 python scripts/sarsa/environment.py &
 python scripts/sarsa/agent.py  &
-python scripts/sarsa/experiment.py $2 $3 $4 $5 $6 &
+python scripts/sarsa/experiment.py $2 $3 $4 $5 &
 

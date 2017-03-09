@@ -1,0 +1,6 @@
+export RLGLUE_PORT=$1
+rl_glue &
+python scripts/sarsa_lambda/environment.py &
+python scripts/sarsa_lambda/agent.py  &
+python scripts/sarsa_lambda/experiment.py $2 $3 $4 $5 $6 &
+

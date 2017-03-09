@@ -1,0 +1,7 @@
+#!/bin/sh
+
+gnome-terminal --tab -e 'bash -c "./bin/run_sarsalambda 2001 1 15 1000 0.5 A; exec bash"'
+gnome-terminal --tab -e 'bash -c "./bin/run_sarsalambda 2002 16 30 1000 0.5 A; exec bash"'
+gnome-terminal --tab -e 'bash -c "./bin/run_sarsalambda 2003 31 40 1000 0.5 A; exec bash"'
+gnome-terminal --tab -e 'bash -c "./bin/run_sarsalambda 2004 41 50 1000 0.5 A;  exec bash"'
+
