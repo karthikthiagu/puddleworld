@@ -1,0 +1,6 @@
+export RLGLUE_PORT=$1
+rl_glue &
+python scripts/qlearning/environment.py &
+python scripts/qlearning/agent.py  &
+python scripts/qlearning/experiment.py $2 $3 $4 $5 $6 &
+
